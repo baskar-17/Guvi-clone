@@ -26,6 +26,7 @@
 .offers-image{
     width: 30%;
 }
+
 .offers-image img{
     object-fit: cover;
     width: 100%;
@@ -37,9 +38,7 @@
     padding: 18px;
     margin: 16px;
     width: 400px;
-    
 }
-
 
 .icon{
     width: 28px;
