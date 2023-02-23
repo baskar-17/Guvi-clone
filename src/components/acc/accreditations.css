@@ -1,6 +1,6 @@
 .acc-container{
     text-align: center;
-    padding: .5rem 2rem;
+    padding: 6rem 6rem;
 }
 
 .acc-container h2{
@@ -10,6 +10,7 @@ color: var(--black);
 .company-images{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 24px 0;
 }
 

@@ -1,0 +1,50 @@
+.food-container{
+    display: flex;
+}
+.btn{
+    background-color: black;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border:1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: white;
+    border:1px solid black;
+  }
+  .card{
+    margin: 50px auto;
+    border:  1px solid lightgray;
+    border-radius: 12px;
+    padding: 10px;
+    width: 350px;
+  }
+  .card img{
+    width: 100%;
+    border-radius: 12px;
+  }
+  .card h4{
+    padding: 8px 0;
+  }
+  .card p{
+    font-size: 14px;
+  }
+  .d-none{
+    display: none;
+  }
+  .food-tag{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  .food-tag a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    padding: 2px 12px;
+  }

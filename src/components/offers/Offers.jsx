@@ -1,4 +1,6 @@
 import React from 'react'
+import { useState } from 'react'
+
 import './offers.css'
 import Icon1 from '../../assets/offers1.webp'
 import Icon2 from '../../assets/offers2.webp'
@@ -9,6 +11,7 @@ import Image from '../../assets/offers5.webp'
 import { FiChevronRight } from "react-icons/fi";
 
 function Offers() {
+
   return (
     <div className='offers-container'>
         <h2>What GUVI offers you?</h2>
