@@ -1,0 +1,19 @@
+.learners-container {
+  padding: 6rem 6rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.learners-container h3 {
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.learners-company-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,90 @@
+.explore-container {
+  padding: 6rem 6rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--gray-bg);
+}
+
+.explore-container h3 {
+  font-weight: 700;
+}
+
+.explore-tabs-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 24px 0;
+  position: relative;
+}
+
+.explore-tabs {
+  background-color: white;
+  padding: 16px 24px;
+  text-align: center;
+  width: 10%;
+  position: relative;
+}
+
+.active-tab {
+  background-color: #0dba4c0c;
+  color: var(--black);
+  font-weight: 500;
+}
+
+.explore-tab-bottomline {
+  height: 5px;
+  width: 100%;
+  background: var(--primary);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.d-none {
+  display: none;
+}
+
+.explore-tabs p {
+  font-size: 15px;
+  color: var(--gray);
+  margin: 0 0;
+}
+
+.explore-content-container {
+  margin: 24px 0;
+}
+
+.explore {
+  align-items: flex-start;
+  display: none;
+}
+
+.active-explore {
+  display: flex;
+  justify-content: center;
+}
+
+.explore-image {
+  width: 40%;
+}
+
+.explore-image img {
+  width: 100%;
+}
+
+.explore-content {
+  width: 55%;
+  text-align: left;
+  padding-left: 24px;
+}
+.explore-content h4 {
+  margin-bottom: 24px;
+}
+
+.explore-content p {
+  margin-bottom: 40px;
+  line-height: 28px;
+  color: var(--gray);
+}
