@@ -4,11 +4,12 @@ import Accreditations from "./components/acc/Accreditations";
 import Header from "./components/header/Header";
 import Nav from "./components/navbar/Navbar";
 import Offers from "./components/offers/Offers";
-import Food from "./components/food/Food";
 // import Courses from "./components/courses/Courses";
 import Explore from "./components/explore/Explore";
 import LiveClass from "./components/live-class/LiveClass";
 import Learners from "./components/learners/Learners";
+import CTA from "./components/CTA/CTA";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -17,11 +18,12 @@ function App() {
       <Header />
       <Accreditations />
       <Offers />
-      <Food />
       {/* <Courses /> */}
       <Explore />
       <LiveClass />
       <Learners />
+      <CTA />
+      <Footer />
     </div>
   );
 }

@@ -1,23 +1,23 @@
-.acc-container{
-    text-align: center;
-    padding: 6rem 6rem;
+.acc-container {
+  text-align: center;
+  padding: 6rem;
 }
 
-.acc-container h2{
-color: var(--black);
+.acc-container h2 {
+  color: var(--black);
 }
 
-.company-images{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 24px 0;
+.company-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 0;
 }
 
-.image-container{
-    width: 20%;
+.image-container {
+  width: 20%;
 }
 
-.image-container img{
-    width: 100%;
+.image-container img {
+  width: 100%;
 }

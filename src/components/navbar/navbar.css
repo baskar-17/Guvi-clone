@@ -1,82 +1,88 @@
-.navbar{
-    background-color: #fff;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding: .5rem 2rem;
-    justify-content: space-evenly;
+.navbar {
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: sticky;
+  top: 0;
+  justify-content: space-evenly;
+  z-index: 3;
 }
 
-.container{
-    padding: .5rem 0;
-    margin: 0 !important;
+.container {
+  padding: 0.5rem 0;
+  margin: 0 !important;
 }
 
-.guvi-logo{
-    width: 8%;
+.guvi-logo {
+  width: 8%;
 }
 
-.guvi-logo img{
-    width: 100%;
-    object-fit: cover;
+.guvi-logo img {
+  width: 100%;
+  object-fit: cover;
 }
 
-.guvi-content{
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+.guvi-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
-dl, ol, ul{
-    margin: 0 !important;
+dl,
+ol,
+ul {
+  margin: 0 !important;
 }
 
-.guvi-nav-links ul{
-    display: flex;
+.guvi-nav-links ul {
+  display: flex;
 }
 
-.guvi-nav-links ul li{
-    padding: 0 16px;
-    list-style: none;
+.guvi-nav-links ul li {
+  padding: 0 16px;
+  list-style: none;
 }
 
-.guvi-nav-links ul li a{
- text-decoration: none;   
- color: var(--gray);
+.guvi-nav-links ul li a {
+  text-decoration: none;
+  color: var(--gray);
 }
 
-.guvi-nav-links ul li a:hover{
-    color: var(--primary);
+.guvi-nav-links ul li a:hover {
+  color: var(--primary);
 }
 
-.guvi-nav-buttons{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+.guvi-nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
-.primary-btn{
-    background-color: var(--primary);
-    padding: 8px 16px;
-    border-radius: 4px;
-    border: none;
-    color: #fff;
-    font-weight: 500;
+.primary-btn {
+  background-color: var(--primary);
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  transition: 150ms ease-in;
 }
 
-.primary-btn:hover{
-    background-color: var(--hover);
-    cursor: pointer;
+.primary-btn:hover {
+  background-color: var(--hover);
+  cursor: pointer;
+  transition: 150ms ease-out;
 }
 
-.secondary-btn{
-    background-color: #fff;
-    padding: 8px 16px;
-    border-radius: 4px;
-    border: none;
-    color: var(--primary);
-    font-weight: 600;
+.secondary-btn {
+  background-color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  color: var(--primary);
+  font-weight: 600;
 }
 
-.secondary-btn:hover{
-    color: var(--hover);
-    cursor: pointer;
+.secondary-btn:hover {
+  color: var(--hover);
+  cursor: pointer;
 }

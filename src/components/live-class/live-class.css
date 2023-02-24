@@ -1,5 +1,5 @@
 .live-container {
-  padding: 6rem 6rem;
+  padding: 6rem;
   display: flex;
   flex-direction: column;
   background-image: var(--purple-bg);
@@ -8,7 +8,6 @@
 .live-container h2 {
   color: #fff;
   font-weight: 600;
-  margin: 0 0 24px 16px;
 }
 
 .live-content {
@@ -96,4 +95,6 @@
 .live-heading-container {
   display: flex;
   align-items: center;
+  text-align: center;
+  margin: 0 0 24px 16px;
 }

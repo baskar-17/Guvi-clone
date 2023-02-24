@@ -1,0 +1,45 @@
+.cta {
+  padding: 6rem;
+}
+
+.cta-container {
+  background-color: #2a2a2a;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  justify-content: space-between;
+  margin: 0 4rem;
+}
+
+.cta-image img {
+  height: 200px;
+}
+
+.cta-content {
+  width: 60%;
+}
+
+.cta-content h4 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.cta-content span {
+  color: var(--primary);
+}
+
+.cta-content p {
+  color: #fff;
+}
+
+.cta-inputfields-btn input {
+  padding: 8px;
+  border-radius: 4px;
+  width: 400px;
+  margin-right: 24px;
+  outline: none;
+}
+
+.cta-inputfields-btn input:focus {
+  border: 2px solid var(--primary);
+}
